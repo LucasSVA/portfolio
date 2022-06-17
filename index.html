@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6752a0213c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row  w-100 position-fixed d-flex align-items-center navigation ">
+                <div class="col-lg-3 d-flex justify-content-center">
+                    <a href="#first-block"><i class="fa-solid fa-house home"></i></a>
+                </div>
+                <div class="col-lg-9  d-flex justify-content-end">
+                    <nav class=" col-6 d-flex justify-content-around">
+                        <a href="#second-block">ABOUT</a>
+                        <a href="#third-block">SKILLS</a>
+                        <a href="#forth-block">PROJECTS</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid first-block d-flex justify-content-evenly" id="first-block">
+            <div class="col-4 pr-5 text-start d-flex flex-column ">
+                <h1>Lucas SVANADZE</h1>
+                <h3>DÉVELOPPEUR WEB JUNIOR</h3>
+            </div>
+            <img src="images/img-lucas.jpg" alt="profile photo" class=" profil-img" height="400px">
+        </div>
+
+        <div class="container-fluid  second-block " id="second-block">
+            <h4 class="d-block text-start w-100  common-title"> ABOUT</h4>
+            <div class="col-12 d-flex justify-content-around  pt-5">
+                <div class="col-8 d-flex flex-column  h-100 justify-content-center">
+                    <h2 class=" col-10 phrase">Passionné par l'informatique, j'ai décidé d'en faire mon métier</h2>
+                    <p class="col-6 presentation">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Aliquam
+                        maxime
+                        saepe provident!
+                        Facilis vel
+                        laborum, similique nostrum asperiores dolores nesciunt ut eum rerum fugiat sit optio aperiam cum
+                        eaque
+                        at, possimus reiciendis ad saepe praesentium! Pariatur praesentium expedita dolores minima,
+                        velit
+                        sequi
+                        odit consectetur eaque aspernatur reiciendis et amet ut earum, labore non dolorum repellendus
+                        autem
+                        officia laudantium tempore placeat rerum! Saepe, fugit? Corrupti pariatur numquam adipisci
+                        nesciun
+                        quod
+                        suscipit inventore aperiam?</p>
+                    <a href="CV-Lucas.pdf" download="CV-Lucas.pdf"
+                        class="d-flex justify-content-center align-items-center cv">Downoad CV</a>
+                </div>
+                <div class="col-3 d-flex justify-content-center align-items-end pb-5">
+                    <div class=" w-100 d-flex flex-column ">
+                        <span class="text-center titre-contact ">CONTACT</span>
+                        <div class="d-flex align-items-center contact  ">
+                            <i
+                                class="fa-solid fa-location-dot icon d-flex justify-content-center align-items-center"></i><span>Paris
+                                -Île-de-France
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center contact ">
+                            <i class="fa-solid fa-message icon d-flex justify-content-center align-items-center"></i>
+                            <a href="mailto: lucas.svanadze@gmail.com" class=" links">lucas.svanadze@gmail.com</a>
+                        </div>
+                        <div class="d-flex align-items-center contact ">
+                            <i class="fa-brands fa-github d-flex justify-content-center align-items-center  icon"></i>
+                            <a href="https://github.com/LucasSVA" class="links">Github</a>
+                        </div>
+                        <div class="d-flex align-items-center  contact ">
+                            <i class="fa-brands fa-linkedin d-flex justify-content-center align-items-center icon"></i>
+                            <a href="https://www.linkedin.com/in/lucas-svanadze/" class="links">Liknedin</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid  d-flex flex-column justify-content-center align-items-center third-block"
+            id="third-block">
+            <h4 class="d-block text-start w-100  common-title">SKILLS</h4>
+            <div class="container d-flex flex-column">
+
+                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around skill-container ">
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <span>HTML </span>
+                    </div>
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-css3 skill-icon"></i>
+                        <span> CSS</span>
+                    </div>
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-js skill-icon"></i>
+                        <span> JavaScript </span>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around   skill-container ">
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-node-js skill-icon"></i>
+                        <span>Node.js </span>
+                    </div>
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-node skill-icon"></i>
+                        <span>Express.js</span>
+                    </div>
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-react skill-icon"></i>
+                        <span>React.js</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around   skill-container ">
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-react skill-icon"></i>
+                        <span>React Native</span>
+                    </div>
+                    <div class="col-2 d-flex flex-column text-center skill-box">
+                        <i class="fa-brands fa-envira skill-icon"></i>
+                        <span> MongoDB </span>
+                    </div>
+                    <div class="col-2 d-flex  flex-column text-center skill-box">
+                        <i class="fa-solid fa-database skill-icon"></i>
+                        <span>Base de données</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid  align-items-center forth-block  " id="forth-block">
+            <h4 class="d-block text-start w-100  common-title">PROJECTS</h4>
+            <div class="container  ">
+                <div class="row d-flex justify-content-around ">
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class=" click" href="#">click</a>
+                    </div>
+
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+
+
+                </div>
+                <div class="row d-flex justify-content-around mt-6 ">
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+
+                </div>
+                <div class="row d-flex justify-content-around mt-6">
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+                    <div class="col-3  bg-warning project-img">
+                        <p> Projet qu'on peut faire ensemble :))</p><a class="  click" href="#">click</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
