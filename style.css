@@ -64,9 +64,9 @@ h1 {
     color: white;
     background-color: #4c5581;
     width: 200px;
-    height: 35px;
+    height: 38px;
     border: 2px solid white;
-
+    text-decoration: none;
 }
 
 .titre-contact {
@@ -98,10 +98,15 @@ h1 {
 
 .third-block {
     height: 100vh;
+    padding-top: 10vh;
     background-color: #29304D;
     font-family: 'Lalezar', cursive;
     color: white;
 
+}
+
+.skill-container {
+    margin: 5vh 5vw 5vh 5vw;
 }
 
 .skill-box {
@@ -109,9 +114,7 @@ h1 {
     border-bottom: 5px solid red;
 }
 
-.skill-container {
-    margin: 0 5vw 5vh 5vw;
-}
+
 
 .skill-icon {
     font-size: 3rem;
@@ -121,27 +124,24 @@ h1 {
 .forth-block {
     padding-top: 15vh;
     background-color: #b3a788;
-    height: 150vh;
+    height: 200vh;
     font-family: 'Lalezar', cursive;
     color: white;
     background-color: #4c5581;
 }
 
-.project-img {
+.img-box {
     width: 30%;
-    height: 30vh;
+    height: 38vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 10vh;
+    background-color: white;
 }
 
-.click {
-
-    background-color: red;
-    width: 50px;
-    display: block;
-    text-align: center;
-
+.img-project {
+    width: 100%;
+    height: 250px;
 }
