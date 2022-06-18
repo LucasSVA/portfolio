@@ -16,13 +16,14 @@
 
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="row  w-100 position-fixed d-flex align-items-center navigation ">
-                <div class="col-lg-3 d-flex justify-content-center">
+        <div class="container-fluid  p-0">
+            <div
+                class="w-100 position-fixed d-flex   flex-lg-row flex-md-row flex-sm-column align-items-center navigation">
+                <div class=" col-lg-3 col-md-3 col-sm-12 d-flex justify-content-center">
                     <a href="#first-block"><i class="fa-solid fa-house home"></i></a>
                 </div>
-                <div class="col-lg-9  d-flex justify-content-end">
-                    <nav class=" col-6 d-flex justify-content-around">
+                <div class="col-lg-9 col-md-9  col-sm-12 d-flex justify-content-lg-end justify-content-sm-end">
+                    <nav class="  col-lg-6 col-md-6 col-sm-12 d-flex justify-content-around nav-bar">
                         <a href="#second-block">ABOUT</a>
                         <a href="#third-block">SKILLS</a>
                         <a href="#forth-block">PROJECTS</a>
@@ -32,44 +33,46 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid first-block d-flex justify-content-evenly" id="first-block">
-            <div class="col-4 pr-5 text-start d-flex flex-column ">
-                <h1>Lucas SVANADZE</h1>
-                <h3>DÉVELOPPEUR WEB JUNIOR</h3>
+        <div class="container-fluid first-block " id="first-block">
+            <div
+                class="container  d-flex justify-content-lg-evenly justify-content-md-evenly justify-content-sm-center flex-lg-row flex-md-row flex-sm-column ">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h1>Lucas SVANADZE</h1>
+                    <h3>Développeur web junior</h3>
+                </div>
+
+                <img src="images/img-lucas.jpg" alt="profile photo" class="profile-img">
+
             </div>
-            <img src="images/img-lucas.jpg" alt="profile photo" class=" profil-img" height="400px">
         </div>
 
+        <!-- presentation  -->
         <div class="container-fluid  second-block " id="second-block">
             <h4 class="d-block text-start w-100  common-title"> ABOUT</h4>
-            <div class="col-12 d-flex justify-content-around  pt-5">
-                <div class="col-8 d-flex flex-column  h-100 justify-content-center">
-                    <h2 class=" col-10 phrase">Passionné par l'informatique, j'ai décidé d'en faire mon métier</h2>
-                    <p class="col-6 presentation">Lorem ipsum dolor sit amet consectetur
+            <div
+                class="col-12 d-flex flex-lg-row flex-md-row flex-sm-column justify-content-lg-around justify-content-md-around justify-content-sm-center pt-5">
+                <div class="col-lg-9 col-md-9 col-sm-12 d-flex flex-column box-presentation ">
+                    <h2 class=" col-lg-10 col-md-8 phrase">Passionné par l'informatique, j'ai décidé d'en faire mon
+                        métier</h2>
+                    <p class="col-lg-8 col-md-8 col-sm-10 presentation">Lorem ipsum dolor sit amet consectetur
                         adipisicing
-                        elit.
-                        Aliquam
-                        maxime
-                        saepe provident!
-                        Facilis vel
-                        laborum, similique nostrum asperiores dolores nesciunt ut eum rerum fugiat sit optio aperiam cum
+                        elit. Aliquam maxime saepe provident! Facilis vellaborum, similique nostrum asperiores dolores
+                        nesciunt ut eum rerum fugiat sit optio aperiam cum
                         eaque
                         at, possimus reiciendis ad saepe praesentium! Pariatur praesentium expedita dolores minima,
-                        velit
-                        sequi
-                        odit consectetur eaque aspernatur reiciendis et amet ut earum, labore non dolorum repellendus
+                        veli sequi
+                        odit consectetur eaque aspernatur reiciendis et amet ut earum, labore non dolorum repellendu
                         autem
                         officia laudantium tempore placeat rerum! Saepe, fugit? Corrupti pariatur numquam adipisci
-                        nesciun
-                        quod
+                        nesciunquod
                         suscipit inventore aperiam?</p>
                     <a href="CV-Lucas.pdf" download="CV-Lucas.pdf"
-                        class="d-flex justify-content-center align-items-center cv">Downoad CV</a>
+                        class="d-flex justify-content-center align-items-center cv ">Downoad CV</a>
                 </div>
-                <div class="col-3 d-flex justify-content-center align-items-end pb-5">
-                    <div class=" w-100 d-flex flex-column ">
+                <div class="col-lg-3 col-md-3 col-sm-12 pb-5">
+                    <div class=" w-100 d-flex flex-column contact-box">
                         <span class="text-center titre-contact ">CONTACT</span>
-                        <div class="d-flex align-items-center contact  ">
+                        <div class="d-flex align-items-center contact w-100">
                             <i
                                 class="fa-solid fa-location-dot icon d-flex justify-content-center align-items-center"></i><span>Paris
                                 -Île-de-France
@@ -87,58 +90,58 @@
                             <i class="fa-brands fa-linkedin d-flex justify-content-center align-items-center icon"></i>
                             <a href="https://www.linkedin.com/in/lucas-svanadze/" class="links">Liknedin</a>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
+
+        <!-- skiils box -->
         <div class="container-fluid  d-flex flex-column justify-content-center align-items-center third-block"
             id="third-block">
             <h4 class="d-block text-start w-100  common-title">SKILLS</h4>
             <div class="container d-flex flex-column">
 
-                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around skill-container ">
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                <div class="d-flex justify-content-around skill-container ">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-html5 skill-icon"></i>
-                        <span>HTML </span>
+                        <span class="techno">HTML </span>
                     </div>
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-css3 skill-icon"></i>
-                        <span> CSS</span>
+                        <span class="techno"> CSS</span>
                     </div>
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-js skill-icon"></i>
-                        <span> JavaScript </span>
+                        <span class="techno"> JavaScript </span>
                     </div>
 
                 </div>
-                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around   skill-container ">
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                <div class="d-flex justify-content-around   skill-container ">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-node-js skill-icon"></i>
-                        <span>Node.js </span>
+                        <span class="techno">Node.js </span>
                     </div>
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-node skill-icon"></i>
-                        <span>Express.js</span>
+                        <span class="techno">Express.js</span>
                     </div>
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-react skill-icon"></i>
-                        <span>React.js</span>
+                        <span class="techno">React.js</span>
                     </div>
                 </div>
-                <div class="d-flex flex-sm-column flex-md-row col-sm-10  justify-content-around   skill-container ">
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                <div class="d-flex justify-content-around  skill-container ">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-react skill-icon"></i>
-                        <span>React Native</span>
+                        <span class="techno">React Native</span>
                     </div>
-                    <div class="col-2 d-flex flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex flex-column text-center skill-box">
                         <i class="fa-brands fa-envira skill-icon"></i>
-                        <span> MongoDB </span>
+                        <span class="techno"> MongoDB </span>
                     </div>
-                    <div class="col-2 d-flex  flex-column text-center skill-box">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 d-flex  flex-column text-center skill-box">
                         <i class="fa-solid fa-database skill-icon"></i>
-                        <span>Base de données</span>
+                        <span class="techno">Base de données</span>
                     </div>
 
                 </div>
@@ -155,12 +158,13 @@
                     </div>
 
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#" target="_blank"><img src="images/cuisine.png" class="img-project"
-                                alt="photo cuisine"></a>
+                        <a class="  click" href="https://flomenus.github.io/digitous-html-cuisine/pages/index.html"
+                            target="_blank"><img src="images/cuisine.png" class="img-project" alt="photo cuisine"></a>
                     </div>
 
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#" target="_blank">PROJECT</a>
+                        <a class="  click" href="#" target="_blank"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
 
 
@@ -168,29 +172,35 @@
                 </div>
                 <div class="row d-flex justify-content-around mt-6 ">
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
 
                     <div class="col-3  img-box p-0">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
 
 
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
 
 
                 </div>
                 <div class="row d-flex justify-content-around mt-6">
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
                     <div class="col-3   img-box p-0 ">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
                     <div class="col-3   img-box p-0">
-                        <a class="  click" href="#">PROJECT</a>
+                        <a class="  click" href="#"><img src="images/project.jpg" alt="project photo "
+                                class="img-project"></a>
                     </div>
 
                 </div>
@@ -198,9 +208,7 @@
             </div>
         </div>
     </main>
-    <footer>
 
-    </footer>
 </body>
 
 </html>
